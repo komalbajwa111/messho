@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <style>
+    /* Optional: add a smooth transition effect for sliding */
+    .slider {
+      transition: transform 0.5s ease-in-out;
+    }
+  </style>
+</head>
+
+<body>
+ <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <a href="#" class="text-pink-600 font-bold text-xl">Meesho</a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="hidden md:flex md:ml-6 flex-grow max-w-xl">
+          <input
+            type="text"
+            placeholder="Search for products, brands and more"
+            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+          />
+        </div>
+
+        <!-- Nav Links -->
+        <div class="hidden md:flex items-center space-x-6">
+          <a href="#" class="text-gray-700 hover:text-pink-600 font-medium">Download App</a>
+          <a href="#" class="text-gray-700 hover:text-pink-600 font-medium">Become a Supplier</a>
+          <a href="#" class="text-gray-700 hover:text-pink-600 font-medium">Profile</a>
+          <a href="#" class="text-gray-700 hover:text-pink-600 font-medium">Cart</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-gray-700 hover:text-pink-600 focus:outline-none">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+      <input
+        type="text"
+        placeholder="Search"
+        class="w-full px-4 py-2 mb-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+      />
+      <a href="#" class="block text-gray-700 py-2 hover:text-pink-600">Download App</a>
+      <a href="#" class="block text-gray-700 py-2 hover:text-pink-600">Become a Supplier</a>
+      <a href="#" class="block text-gray-700 py-2 hover:text-pink-600">Profile</a>
+      <a href="#" class="block text-gray-700 py-2 hover:text-pink-600">Cart</a>
+    </div>
+  </nav>
+
+  <!-- end navbar -->
+  <div>
+    <div>
+      <img src="messho card.webp" alt="">
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto p-6">
+    <!-- Card Container -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+      <!-- Single Card -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="gown 1.avif" alt="Women Ethnic Wear gown" class="object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-900">gown ₹440</h3>
+          <p class="text-gray-600 mt-2">Elegant Black Georgette Anarkali Gown With Dupatta (No Pant)</p>
+          <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Learn
+            More</button>
+        </div>
+      </div>
+
+      <!-- Another Card -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="gown 2.avif" alt="Women Ethnic Wear" class="object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-900">gown ₹550</h3>
+          <p class="text-gray-600 mt-2">Women's stylish designer georgette full length fancy's gown kurti with dupatta
+            set</p>
+          <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Learn
+            More</button>
+        </div>
+      </div>
+
+      <!-- Another Card -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="gown 7.avif" alt="Women Ethnic Wear" class="  object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-900">gown ₹600</h3>
+          <p class="text-gray-600 mt-2">PURE RAYON GOLD PRINTED LONG ANARKALI KURTI 3/4 SLEEVES</p>
+          <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Learn
+            More</button>
+        </div>
+      </div>
+
+     
+    </div>
+  </div>
+
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+  <!-- Card 1 -->
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+    <img src="gown 4.avif" alt="Women Ethnic Wear" class="object-cover w-full h-72">
+    <div class="p-4 flex-1 flex flex-col">
+      <h3 class="text-lg font-semibold text-gray-900">Long Gown ₹362</h3>
+      <p class="text-gray-600 text-sm mt-2 flex-1">Bride Gown Dresses for Wedding Engagement Gown Dress for Women's Bridal Western dress for girls new dress for women 2025 stylish party gown</p>
+      <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Learn More</button>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+    <img src="gown k1.avif" alt="Women Ethnic Wear" class="object-cover w-full h-72">
+    <div class="p-4 flex-1 flex flex-col">
+      <h3 class="text-lg font-semibold text-gray-900">Long Gown ₹300</h3>
+      <p class="text-gray-600 text-sm mt-2 flex-1">Bride Gown Dresses for Wedding Engagement Gown Dress for Women's Bridal Western dress for girls new dress</p>
+      <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Learn More</button>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+    <img src="gown k2.avif" alt="Women Ethnic Wear" class="object-cover w-full h-72">
+    <div class="p-4 flex-1 flex flex-col">
+      <h3 class="text-lg font-semibold text-gray-900">Long Gown ₹590</h3>
+      <p class="text-gray-600 text-sm mt-2 flex-1">Women's Bridal Western dress for girls new dress</p>
+      <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Learn More</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+ 
+
+
+
+  <!-- footer  -->
+  
+    <footer class="bg-gray-100 text-gray-700">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      
+      <!-- Logo & Description -->
+      <div>
+        <h3 class="text-xl font-bold text-pink-600">Meesho</h3>
+        <p class="mt-2 text-sm text-gray-600">
+          India's favorite online shopping platform for quality products at wholesale prices.
+        </p>
+      </div>
+
+      <!-- Shop Categories -->
+      <div>
+        <h4 class="text-md font-semibold mb-3">Shop</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:text-pink-600">Women Ethnic</a></li>
+          <li><a href="#" class="hover:text-pink-600">Men</a></li>
+          <li><a href="#" class="hover:text-pink-600">Electronics</a></li>
+          <li><a href="#" class="hover:text-pink-600">Beauty & Health</a></li>
+        </ul>
+      </div>
+
+      <!-- Company Info -->
+      <div>
+        <h4 class="text-md font-semibold mb-3">Company</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:text-pink-600">About Us</a></li>
+          <li><a href="#" class="hover:text-pink-600">Careers</a></li>
+          <li><a href="#" class="hover:text-pink-600">Blog</a></li>
+          <li><a href="#" class="hover:text-pink-600">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div>
+        <h4 class="text-md font-semibold mb-3">Follow Us</h4>
+        <div class="flex space-x-4 text-gray-500">
+          <a href="#" class="hover:text-pink-600">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M22.5 0h-21C.67 0 0 .67 0 1.5v21C0 23.33.67 24 1.5 24h11.26v-9.28H9.74v-3.62h3.02V8.36c0-3 1.8-4.66 4.52-4.66 1.31 0 2.43.1 2.76.14v3.2h-1.89c-1.48 0-1.77.7-1.77 1.73v2.27h3.54l-.46 3.62h-3.08V24h6.05c.83 0 1.5-.67 1.5-1.5v-21C24 .67 23.33 0 22.5 0z"/></svg>
+          </a>
+          <a href="#" class="hover:text-pink-600">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 4.56c-.89.39-1.85.65-2.85.77a4.93 4.93 0 0 0 2.17-2.72 9.86 9.86 0 0 1-3.12 1.2 4.92 4.92 0 0 0-8.38 4.48A13.95 13.95 0 0 1 1.67 3.15a4.91 4.91 0 0 0 1.52 6.56A4.9 4.9 0 0 1 .96 9.1v.06a4.93 4.93 0 0 0 3.95 4.82 4.9 4.9 0 0 1-2.21.08 4.93 4.93 0 0 0 4.6 3.42 9.87 9.87 0 0 1-6.1 2.1c-.4 0-.79-.02-1.18-.07a13.94 13.94 0 0 0 7.56 2.21c9.05 0 14-7.5 14-14v-.64A10.12 10.12 0 0 0 24 4.56z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="mt-10 border-t border-gray-300 pt-6 text-sm text-center text-gray-500">
+      © 2025 Meesho. All rights reserved.
+    </div>
+  </div>
+</footer>
+   
+
+
+
+
+
+  <script src="text.js"></script>
+
+
+</body>
+
+</html>
